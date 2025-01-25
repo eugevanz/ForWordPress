@@ -6,4 +6,4 @@ RUN apt-get update && \
     echo "deb https://packages.sury.org/php/ bookworm main" > /etc/apt/sources.list.d/sury.list && \
     apt-get update && apt-get install -y --no-install-recommends \
         postgresql-client \
-        php8.2-pgsql
+        php-pgsql
